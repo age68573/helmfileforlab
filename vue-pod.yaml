@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: vue-pod
+  namespace: dev
+  labels:
+    user: heima
+spec:
+  containers:
+  - name: vue
+    image: lab.harbor.com/library/xxx
