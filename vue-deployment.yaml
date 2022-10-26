@@ -4,7 +4,7 @@ metadata:
   name: vue-deployment
   namespace: dev
 spec: 
-  replicas: 3
+  replicas: 4
   selector:
     matchLabels:
       app: vue-pod
